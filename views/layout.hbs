@@ -7,6 +7,19 @@
 </head>
 
 <body>
+
+<nav>
+  <a href="/">Home</a>
+  {{#if user}}
+  <a href="/main">Main</a>
+  <a href="/private">Private</a>
+  <a href="profile">Profile</a>
+  {{else}}
+  <a href="/register">Register</a>
+  <a href="/login">Login</a>
+  {{/if}}
+</nav>
+
   {{{body}}}
 </body>
 

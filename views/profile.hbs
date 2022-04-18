@@ -1,0 +1,8 @@
+<h1>{{user.username}}'s Profile</h1>
+<p>Welcome {{user.username}} to your profile!</p>
+{{#if user.name}} <p>Your name is {{user.name}} {{/if}}</p>
+<a href="/prfile/edit">Edit profile</a>
+
+<form action="/logout" method="POST">
+    <button>Logout</button>
+</form>

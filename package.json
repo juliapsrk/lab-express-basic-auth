@@ -9,9 +9,12 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^4.6.0",
     "debug": "^4.3.4",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "express-session": "^1.17.2",
     "hbs": "^4.2.0",
     "http-errors": "^2.0.0",
     "mongoose": "^6.2.11",
@@ -29,5 +32,18 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "prettier": "^2.6.2"
-  }
+  },
+  "description": "![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliapsrk/lab-express-basic-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliapsrk/lab-express-basic-auth/issues"
+  },
+  "homepage": "https://github.com/juliapsrk/lab-express-basic-auth#readme"
 }
